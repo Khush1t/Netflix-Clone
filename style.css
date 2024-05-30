@@ -127,3 +127,48 @@ nav button {
     background-color: red;
     font-weight: 900;
 }
+
+.first div {
+    color: white;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: 70px auto;
+}
+.upar-wala {
+    font-size: 48px;
+    font-weight: 900;
+}
+.neeche-wala {
+    font-size: 24px;
+    font-weight: 900;
+}
+.secImg {
+    position: relative;
+}
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 26vw;
+}
+
+.separation {
+    position: relative;
+    z-index: 11;
+}
+
+.third video {
+    position: absolute;
+    top: 18px;
+    right: 18%;
+    width: 19vw;
+}
