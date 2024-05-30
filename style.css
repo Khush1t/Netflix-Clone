@@ -15,7 +15,7 @@ body {
   background-image: url("assets/images/bg.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: max(1200px, 100vw);
+  background-size: max(1500px, 110vw);
   height: 85vh;
   position: relative;
 }
@@ -117,7 +117,7 @@ nav button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 25px;
 }
 .main input {
   width: 25vw;
@@ -155,7 +155,7 @@ nav button {
   position: relative;
 }
 .secImg img {
-  width: 30vw;
+  width: 600px;
   position: relative;
   z-index: 10;
 }
@@ -163,7 +163,7 @@ nav button {
   position: absolute;
   top: 55px;
   right: 0;
-  width: 26vw;
+  width: 520px;
 }
 
 .third video {
@@ -246,4 +246,49 @@ footer {
 .question-neeche {
   margin-bottom: 20px;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1300px) {
+  .first {
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .secImg img {
+    width: 405px;
+  }
+  .secImg video {
+    width: 305px;
+  }
+
+  .hero > :nth-child(1) {
+    font-size: 32px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .nav {
+    max-width: 90vw;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .faq h2 {
+    font-size: 32px;
+  }
+
+  .footer-items {
+    align-items: start;
+  }
 }
